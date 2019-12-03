@@ -5,7 +5,7 @@
 ### Repository Structure
 Folders [train](FruitDataset/f360/train), [test](FruitDataset/f360/test), and [val](FruitDataset/f360/val) contain images for training and testing.
 
-The file [train.py](FruitDataset/train.py) contains the python code to train a neural network.
+The files [train.py](FruitDataset/train.py) and [reshape.py](FruitDataset/reshape.py) contains the python code to train a neural network.
 
 The file [onnx_export.py](FruitDataset/onnx_export.py) contains the python code to transform the trained model into an ONNX model.
 
